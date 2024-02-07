@@ -1,0 +1,406 @@
+/* ------------------------------- Coloque sua estilização aqui ------------------------------- */
+.menu {
+    height: 80px;
+    width: 100%;
+
+    background-color: var(--color-grey-1);
+    border-bottom: 2px solid var(--color-primary);
+
+    position: fixed;
+
+    z-index: 2;
+
+
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__logo {
+
+    font-size: var(--font-text-1);
+
+    color: var(--color-grey-7);
+}
+
+.btn__modal {
+
+    font-size: var(--font-text-3);
+
+    padding: 14px 20px;
+
+    border: 1px solid var(--color-grey-6);
+
+    color: var(--color-grey-6);
+    background-color: transparent;
+
+    cursor: pointer;
+
+}
+
+.topic {
+
+    padding-top: 100px;
+
+    height: 780px;
+
+    background-color: var(--color-grey-2);
+}
+
+.container__topic {
+
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+
+
+
+}
+.weight__600 {font-weight: var(--font-weight-600);}
+.weight__400 {font-weight: var(--font-weight-400);}
+
+.topic__title {
+
+    font-size: var(--font-title-1);
+
+    color: var(--color-grey-6);
+
+}
+
+.topic__title > span {
+    color: var(--color-primary);
+}
+
+.description {
+    font-size: var(--font-text-1);
+
+    line-height: 150%;
+
+}
+
+.topic__description {
+    width: 70%;
+    color: var(--color-grey-4);
+}
+
+.btn {
+    padding: 16.5px 32px;
+
+    background-color: var(--color-primary);
+    color: var(--color-grey-7);
+
+    cursor: pointer;
+}
+
+.about {
+    height: 284px;
+
+    background-color: var(--color-grey-1);
+}
+
+.about__title {
+    font-size: var(--font-title-3);
+
+    color: var(--color-grey-6);
+
+    width: 50%;
+}
+
+.about__description {
+    width: 50%;
+}
+
+.about__description > p {
+
+    color: var(--color-grey-5);
+
+}
+
+.faq {
+
+    background-color: var(--color-grey-2);
+    height: 1100px;
+
+}
+
+.container__faq {
+    align-items: flex-start;
+
+    padding-top: 86px;
+
+    position: relative;
+
+    height: 88%;
+}
+
+.faq__topic {
+
+    width: 45%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    position: sticky;
+
+    z-index: 1;
+
+    top: 90px;
+
+}
+
+.faq__topic > h2 {
+
+    font-size: var(--font-title-2);
+
+    color: var(--color-grey-7);
+
+
+}
+
+.faq__topic > p {
+
+    color: var(--color-grey-4);
+    
+    font-size: var(--font-text-2);
+
+    line-height: 150%;
+}
+
+.faq__button {
+    width: 250px;
+    height: 50px;
+
+    background-color: var(--color-primary);
+
+    color: var(--color-grey-7);
+
+    text-align: center;
+
+    line-height: 50px;
+
+    cursor: pointer;
+
+
+}
+
+.faq__questions {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.faq__questions > span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.faq__questions > span > h3 {
+    
+    font-size: var(--font-title-4);
+
+    color: var(--color-grey-7);
+}
+
+.faq__questions > span > p {
+
+    font-size: var(--font-text-2);
+
+    color: var(--color-grey-6);
+
+    line-height: 150%;
+}
+
+.comments {
+    height: 750px;
+
+    background-color: var(--color-grey-2);
+}
+.container__comments {
+    align-items: flex-start;
+
+    padding-top: 40px;
+}
+.student__comments {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+    width: 64%;
+}
+
+.itens {
+    display: flex;
+    gap: 20px;
+}
+
+.itens > span {
+    width: 30%;
+}
+
+.itens > span > h3 {
+    font-size: var(--font-title-4);
+    color: var(--color-grey-7);
+    font-weight: var(--font-weight-500);
+}
+
+.itens > span > p {
+    font-size: var(--font-text-2);
+
+    color: var(--color-grey-4);
+
+    font-weight: var(--font-weight-400);
+}
+
+.itens > p {
+    width: 65%;
+
+    font-size: var(--font-text-3);
+    color: var(--color-grey-7);
+    font-weight: var(--font-weight-400);
+}
+.post-it {
+    width: 33%;
+    height: 380px;
+
+    padding: 60px 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    background-color: var(--color-primary);
+}
+
+.post-it > h2 {
+    font-size: var(--font-title-4);
+
+    color: var(--color-grey-7);
+
+    font-weight: var(--font-weight-600);
+}
+
+.post-it > p {
+
+    font-size: var(--font-text-2);
+
+    color: var(--color-grey-6);
+
+    font-weight: var(--font-weight-400);
+
+    line-height: 150%;
+}
+
+footer {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-6);
+
+    height: 100px;
+
+    line-height: 100px;
+
+    text-align: center;
+}
+
+footer > h3 {
+    height: 100%;
+}
+
+.modal {
+    width: 380px;
+    height: 320px;
+
+    background-color: var(--color-grey-2);
+
+    border: 2px solid var(--color-primary);
+
+    margin: 160px auto;
+}
+
+.modal::backdrop {
+   background-color: rgba(25, 28, 31, 0.8);
+}
+
+.container__modal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container__modal > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.container__modal > div > h3 {
+    font-size: var(--font-text-1);
+
+    color: var(--color-grey-7);
+
+    font-weight: var(--font-weight-600);
+}
+
+.btn__close {
+    padding: 5px 10px;
+
+    background-color: var(--color-grey-3);
+
+    color: #868E96;
+
+    border-radius: 4px;
+    border: none;
+
+    cursor: pointer;
+
+}
+
+.container__modal > p {
+    font-size: var(--font-text-3);
+
+    color: var(--color-grey-5);
+
+    font-weight: var(--font-weight-400);
+}
+
+.container__modal > input {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-4);
+
+    font-size: var(--font-text-2);
+
+    padding: 14px 0px 14px 20px ;
+
+    border: 1px solid var(--color-grey-1);
+}
+
+
+.container__modal > button {
+    padding: 16px 0px;
+
+    font-size: var(--font-text-3);
+    font-weight: var(--font-weight-600);
+
+    background-color: var(--color-primary);
+
+    color: var(--color-grey-7);
+
+    border: none;
+
+    cursor: pointer;
+}
+
